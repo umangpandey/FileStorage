@@ -19,3 +19,4 @@ used JIB plugin in maven pom.xml to build the docker image
 Max size of single file this microservice can upload is 100MB
 
 To Build and publish any image provide the docker hub username and password in plugin
+DockerHub url :https://hub.docker.com/repository/docker/umangpandey/filestoragerepo
