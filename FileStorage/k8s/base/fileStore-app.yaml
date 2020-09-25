@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: filestoreapp
+spec:
+  selector:
+    matchLabels:
+      app: filestoreapp
+  replicas: 1
+  template: 
+    metadata:
+      labels:
+        app: filestoreapp
+    spec:
+      containers:
+      - name: filestoreapp
+        image: umangpandey/filestoragerepo:fileStoreAppVer1
