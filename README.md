@@ -1,4 +1,4 @@
-# FileStorageMicroService
+# FileStorage MicroService
 
 ##################
 FileStore is a microservice to imports .tar file extension,pull and list all files present in store.
