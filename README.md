@@ -16,4 +16,6 @@ step 3: open url in browser (Do minikube ip) <Minikube-iP -Address>:30080/swagge
 
 used JIB plugin in maven pom.xml to build the docker image
 
-Max size the microservice can upload is 100MB for a single file .tar extension
+Max size of single file this microservice can upload is 100MB
+
+To Build and publish any image provide the docker hub username and password in plugin
